@@ -474,6 +474,9 @@ function runValidation(data, lastRow){
       if(dAC !== null && dAD !== null && dAC > dAD){
         add(48, 'AC dan AD','Error','Value kolom AC dan AD tertukar', i);
       }
+      else if(dAD !== null && dAC !== null && dAD > dAC){
+        add(53, 'AC dan AD','Warning','Pastikan Start Date dan End Date dalam range Effective Date dan Expiry Date di Terms Smart GEP', i);
+      } 
     }
   }
 
