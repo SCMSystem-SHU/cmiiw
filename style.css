@@ -177,3 +177,13 @@
     text-align:right;
     line-height:1.6;
 }
+
+#downloadBtn{
+    display:none;
+}
+#badgeLineFix{
+    display:none;
+}
+.col-linefix{
+    display:none;
+}
